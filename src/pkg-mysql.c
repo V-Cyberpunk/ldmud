@@ -112,7 +112,7 @@ pkg_mysql_init (void)
             return MY_FALSE;
     }
     printf("%s mySQL: %s\n", time_stamp(), server_version);
-    debug_message("%s mySQL %s\n", time_stamp(), client_version);
+    debug_message("%s mySQL: %s\n", time_stamp(), server_version);
     return MY_TRUE;
 } /* pkg_mysql_init() */
 
