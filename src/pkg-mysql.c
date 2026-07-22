@@ -30,7 +30,6 @@
 
 #include <mysql.h>
 #include <errmsg.h>
-#include <mysql.h>
 
 #include "pkg-mysql.h"
 
